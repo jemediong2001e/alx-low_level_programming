@@ -2,7 +2,7 @@
 /**
 * Description: main - Prints out a string to stdout.
 *
-* Retrun: 0 if success.
+* Return: 0 if success.
 *
 */
 
