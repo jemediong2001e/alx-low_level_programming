@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-* Descrition main - always entry.
+* main - always entry
 *
-* Return: 0 if success.
+* Return: 0
 *
 */
 
