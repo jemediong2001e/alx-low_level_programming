@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-{
+
 	void print_alphabet_x10(void);
 	char j, i;
 
@@ -17,6 +17,3 @@
 		}
 		_putchar('\n');
 	}
-
-	return (0);
-}
