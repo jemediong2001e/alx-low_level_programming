@@ -21,6 +21,5 @@ int main(void)
 		y = i + j;
 	}
 	printf("%u\n", k);
-	
 	return (0);
 }
