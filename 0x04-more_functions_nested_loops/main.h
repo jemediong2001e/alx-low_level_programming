@@ -1,8 +1,8 @@
 #ifndef _MAIN_H
 #define _MAIN_H
-extern int _putchar(char c);
-extern int _isupper(int c);
-extern int _isdigit(int c);
+extern int putchar(char c);
+extern int isupper(int c);
+extern int isdigit(int c);
 extern int mul(int a, int b);
 extern void print_numbers(void);
 extern void print_most_numbers(void);
