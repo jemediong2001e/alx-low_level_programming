@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int putchar(char c);
+int _putchar(char c);
 
 /**
- * Print_number - like hello world
+ * print_number - like hello world
  * @n: parameters as integer
  * No return
  */
