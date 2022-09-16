@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Fizz for multiple of 3 and Buzz for multiple of 5 and FizzBuzz for both
+ * main - Fizz for multiple of 3 Buzz for multiple of 5 FizzBuzz for both
  * Return: Always 0
  */
 int main(void)
