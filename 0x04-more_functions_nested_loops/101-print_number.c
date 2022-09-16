@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-extern int putchar(char c);
+int putchar(char c);
 
 /**
  * Print_number - like hello world
