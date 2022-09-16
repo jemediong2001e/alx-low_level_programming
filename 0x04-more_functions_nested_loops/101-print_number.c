@@ -5,7 +5,6 @@
  * @n: input integer
  * Return: no return
  */
-
 void print_number(int n)
 {
 	unsigned int m, d, count;
@@ -17,7 +16,7 @@ void print_number(int n)
 	}
 	else
 	{
-		m = n
+		m = n;
 	}
 
 	d = m;
