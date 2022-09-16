@@ -1,31 +1,36 @@
-#include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-
-int _putchar(char c);
+#include "holberton.h"
 
 /**
- * print_number - like hello world
- * @n: parameters as integer
- * No return
+ * print_number - prints an integer
+ * @n: input integer
+ * Return: no return
  */
+
 void print_number(int n)
 {
-	unsigned int n1 = 0;
+	unsigned int m, d, count;
 
 	if (n < 0)
 	{
-		n1 = -n;
-		putchar('-');
+		_putchar(45);
+		m = n * -1;
 	}
 	else
 	{
-		n1 = n;
+		m = n
 	}
 
-	if (n1 / 10)
+	d = m;
+	count = 1;
+
+	while (d > 9)
 	{
-		print_number(n1 / 10);
+		d /= 10;
+		count *= 10;
 	}
-	putchar((n1 % 10) + '0');
+
+	for (; count >= 1; count /= 10)
+	{
+		_putchar(((m / count) % 10) + 48);
+	}
 }
