@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * program that prints a[2] = 98, followed by a new line.
+ * @p: pointer
+ * @a: an array
+ * @n: a variable
+ */ 
 int main(void)
 {
 	int n;
