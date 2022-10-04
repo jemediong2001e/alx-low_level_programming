@@ -5,6 +5,7 @@
  * argstostr - concatenates all the arguments of a program.
  * @ac: argument count.
  * @av: argument vector.
+ *
  * Return: pointer of an array of char
  */
 
@@ -14,9 +15,9 @@ char *argstostr(int ac, char **av)
 	int c, i, j, ia;
 
 	if (ac == 0)
-	{
+	
 		return (NULL);
-	}
+	
 	for (c = i = 0; i < ac; i++)
 	{
 		if (av[i] == NULL)
